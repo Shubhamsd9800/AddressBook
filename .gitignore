@@ -1,0 +1,39 @@
+# Visual Studio-specific
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build artifacts
+bin/
+obj/
+out/
+
+# .NET Core dependencies
+project.lock.json
+project.assets.json
+artifacts/
+
+# Logs and debugging
+logs/
+*.log
+*.tlog
+*.dmp
+# Temporary files
+*.tmp
+*.cache
+*.ide
+
+# User-specific files
+*.rsuser
+*.sln.iml
+
+# Entity Framework Migrations
+Migrations/
+
+# NuGet dependencies
+*.nupkg
+packages/
+.nuget/
+*.snupkg
